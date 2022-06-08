@@ -69,7 +69,6 @@ def save_df(df, name): # save df
 
 
 
-
 if __name__ == '__main__': # code ist only executed if program is main and not imported
 
     dfs_list = read_files('data') #call a function

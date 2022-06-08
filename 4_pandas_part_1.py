@@ -60,8 +60,6 @@ print(my_df.shape) # attribute
 
 #  search in the cheat sheet how to get means of all cols
 
-print(my_df.mean())
-
 ###########################################################
 
 
@@ -119,7 +117,7 @@ my_df.iloc[30000:40000,2:].plot(grid=True, subplots=True, colormap='viridis')
 plt.savefig('test_plot.png') #save the last opended plot
 plt.show()
 plt.close() 
-exit()
+
 
 # ECERSICE 3 #############################################################
 # read a file (sensor) and init an pd.DataFrame

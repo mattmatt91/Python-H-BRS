@@ -7,7 +7,6 @@ ekin = 0.5*mass*(velocity**2)
 print(f'the kinetic energy is {ekin} Joule')
 
 
-
 # define a function 
 def calc_ekin(mass, velocity): # define arguments
     ekin = 0.5*mass*(velocity**2) # do calculations
