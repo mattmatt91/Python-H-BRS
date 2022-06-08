@@ -38,7 +38,6 @@ df_list = []
 for path in path_list:
     name = path[path.rfind('\\')+1:path.rfind('.')]
     df = pd.read_csv(path, decimal='.', sep='\t') 
-    df.to_csv(path, sep='\t', decimal='.')
     df.rename(columns={"counts" : name}, inplace=True)
     df.set_index('wavelength', inplace=True)
     df_list.append(df)
